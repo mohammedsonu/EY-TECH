@@ -23,7 +23,7 @@ if not firebase_admin._apps:
     })
 
 def get_hook_response_mega(prompt, user_input):
-    api_key = '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'
+    api_key = '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'
     endpoint = 'https://api.openai.com/v1/chat/completions'
     
     headers = {
@@ -43,7 +43,7 @@ def get_hook_response_mega(prompt, user_input):
     return bot_response
 
 def get_hook_response(prompt_type, user_input):
-    api_key = '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'
+    api_key = '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'
     endpoint = 'https://api.openai.com/v1/chat/completions'
     
     headers = {
@@ -76,7 +76,7 @@ def get_hook_response(prompt_type, user_input):
         return f"Invalid prompt type: {prompt_type}"
     
 def get_chatbot_response(prompt):
-    api_key = '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'
+    api_key = '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'
     endpoint = 'https://api.openai.com/v1/chat/completions'
     
     headers = {
